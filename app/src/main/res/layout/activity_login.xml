@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:gravity="center"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/loginusernameid"
+        android:textColorHint="#100F0F"
+        android:textSize="30sp"
+        android:backgroundTint="#100F0F"
+        android:textColor="#100F0F"
+        android:hint="Enter Username:"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/loginpasswordid"
+        android:textColorHint="#100F0F"
+        android:textSize="30sp"
+        android:backgroundTint="#100F0F"
+        android:textColor="#100F0F"
+        android:hint="Enter Password:"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <Button
+    android:id="@+id/loginbutton"
+    android:textColor="#ffffff"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:text="Login"
+    android:background="#100F0F"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/siginbutton"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="Sign in"
+        android:background="#100F0F"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:onClick="signinuser"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
